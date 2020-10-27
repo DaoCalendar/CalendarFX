@@ -1,8 +1,8 @@
 open module com.calendarfx.sampler {
+    requires transitive org.controlsfx.fxsampler;
+    requires transitive javafx.graphics;
 
     requires javafx.web;
-
-    requires fxsampler;
 
     requires com.calendarfx.view;
 
